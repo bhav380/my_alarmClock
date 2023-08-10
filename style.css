@@ -361,7 +361,15 @@ main {
 }
 
 #alarmclock-data-container table .alarm-name {
+    overflow: hidden;
+    text-transform: lowercase;
     font-size: 0.9rem;
+}
+
+#alarmclock-data-container table .alarm-name span{
+    display: inline-block;
+    width:167px;
+    overflow: hidden;
 }
 
 
@@ -457,6 +465,11 @@ main {
     #setalarm-time-flex div label {
         font-size: 1.1rem;
     }
+
+        
+    #alarmclock-data-container table .alarm-name span{
+        width:165px;
+    }
 }
 
 @media only screen and (max-width:992px) {
@@ -527,7 +540,12 @@ main {
 
 
     #alarmclock-data-container table .alarm-name {
-        font-size: 0.88rem;
+        font-size: 0.83rem;
+    }
+
+    #alarmclock-data-container table .alarm-name span{
+        width:158px;
+       
     }
 
 }
@@ -624,11 +642,16 @@ main {
 
 
     #alarmclock-data-container table .alarm-name {
-        font-size: 0.82rem;
+        font-size: 0.642rem;
+    }
+
+    #alarmclock-data-container table .alarm-name span{
+        width:108px;
+       
     }
 
     #alarmclock-data-container table .alarm-time{
-        font-size:0.89rem;
+        font-size:0.8rem;
     }
     
 }
@@ -754,7 +777,7 @@ main {
         font-size:0.88rem;
         width:80px;
         position: relative;
-        left:7px;
+        left:16px;
      }
 
      #alarmclock-data-container table tr th:nth-child(3){
@@ -773,12 +796,21 @@ main {
 
 
     #alarmclock-data-container table .alarm-name {
-        width:26%;
-        font-size: 0.72rem;
+        width:20%;
+        
+        font-size: 0.62rem;
+
+    }
+
+
+    #alarmclock-data-container table .alarm-name span{
+        display: inline-block;
+        width:90px;
+        overflow: hidden;
     }
 
     #alarmclock-data-container table .alarm-time{
-        font-size:0.74rem;
+        font-size:0.66rem;
         width:39%;
     }
 

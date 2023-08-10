@@ -210,7 +210,7 @@
 
                 alarmClockData.insertAdjacentHTML('beforeend',
                     `<tr id='${data.id}'>
-                    <td class="alarm-name">${data.name}</td>
+                    <td class="alarm-name"><span>${data.name}</span></td>
                     <td class="alarm-time">${data.hour}:${data.minute}:${data.second} ${data.am_pm}</td>
                     <td class="status">
                     
