@@ -1,0 +1,785 @@
+body {
+    background-color: whitesmoke;
+    ;
+}
+
+
+/* ___________navBar___________________*/
+
+#nav-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    height: 105px;
+    background-color: rgba(0, 0, 0, 0.919);
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+
+#nav-header svg {
+    color: white;
+    margin-right: 13px;
+    height:4.8rem;
+    width:6.1rem;
+}
+
+#nav-header h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    color: #d36a9f;
+}
+
+#options-menu {
+    position: fixed;
+    z-index: 3;
+    color: white;
+    font-size: 1.6rem;
+
+}
+
+#options-menu i {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+
+#nav-container {  
+
+    z-index: 1;
+    width: 157px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.945);
+    display: flex;
+    flex-direction: column;
+
+    /*setting display to none , clicking menu button will convert it to flex using js */
+    display: none;
+}
+
+#nav-container button {
+
+    height: 100px;
+    width: 157px;
+    background-color: rgba(0, 0, 0, 0.342);
+    border: none;
+    border-bottom: 0.5px solid white;
+    color: #d36a9f;
+    font-size: 1.01rem;
+    font-family: cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 1.03rem;
+}
+
+#nav-container button:nth-child(1) {
+    margin-top: 105px;
+    border-top: 0.5px solid white;
+}
+
+#nav-container button:hover {
+    background-color: whitesmoke;
+    color: #cb498a;
+    font-size: 1.068rem;
+}
+
+
+#nav-container button svg {
+
+    margin-right: 10px;
+    height:1.85rem;
+    width:1.85rem;
+
+
+    position: relative;
+    top: -3px;
+    color: white;
+}
+
+#nav-container button i {
+    font-size: 1.85rem;
+
+    color: white;
+
+    margin-right: 10px;
+}
+
+#nav-container button:hover svg,
+#nav-container button:hover i {
+    color: rgba(0, 0, 0, 0.851);
+}
+
+
+
+/* ___________________________________________________main_________________________________________________*/
+
+main {
+
+    margin: auto;
+    position: relative;
+    top: 105px;
+    width: 97vw;
+    height: auto;
+}
+
+/* ______________________________alarm clock section______________________________________*/
+
+#alarm-clock {
+
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;;
+}
+
+
+/*__________________clock cotainer___________________*/
+
+#clock-container {
+    min-height: 275px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#date {
+
+    height: 50px;
+    font-family: cursive;
+    font-size: 1.65rem;
+    text-align: center;
+}
+
+#time {
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+/*_________________setAalarm Container_________________*/
+
+#setalarm-container {
+
+    margin: auto;
+    margin-top: 15px;
+    height: 445px;
+    background-color: black;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px 4px gray;
+}
+
+.heading {
+    /* border:2px solid blue; */
+
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: 1.5rem;
+    font-family: cursive;
+
+    height: 50px;
+    color: #d36a9f;
+    ;
+
+
+}
+
+.heading::first-letter {
+    font-size: 2.5rem;
+}
+
+#setalarm-time-flex {
+    width : 95%;
+    position: relative;
+    left: 18px;
+    top: 22px;
+    display: flex;
+}
+
+#setalarm-time-flex div {
+
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+#setalarm-time-flex div label {
+
+    text-align: center;
+    color: rgba(211, 211, 211, 0.848);
+    width: 100px;
+    height: 50%;
+    font-size: 1.13rem;
+    font-family: cursive;
+}
+
+#setalarm-time-flex div label span {
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    top: 15px;
+    left: 12px;
+}
+
+#setalarm-time-flex div select {
+    border-radius: 10px;
+    font-size: 1.05rem;
+    height: 50%;
+    position: relative;
+    top: 7px;
+    left: 12px;
+}
+
+
+#setalarm-name-flex {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 58px;
+
+}
+
+
+#setalarm-name-flex #alarm-name {
+    width: 98%;
+    max-width: 480px;
+    height: 45px;
+    font-size: 1.1rem;
+    border: 0.5px solid black;
+    position: relative;
+    left: 30px;
+    top: 35px;
+    border-radius: 7px;
+
+}
+
+#setalarm-button {
+    width: 100%;
+    height: 50px;
+    background-color: #d36a9ed5;
+    color: rgba(0, 0, 0, 0.901);
+    font-size: 1.15rem;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 75px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+#setalarm-button:hover {
+
+    background-color: #d36a9f;
+    font-size: 1.3rem;
+}
+
+
+/*_______________alarmClock data container_____________*/
+
+#alarmclock-data-container {
+    position: relative;
+    top: 200px;
+    width: 65%;
+    margin: auto;
+    margin-bottom:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: whitesmoke;
+    display: none
+}
+
+#alarmclock-data-container h3 {
+    display: inline-block;
+    font-size: 2.5rem;
+    font-family: cursive;
+    position: relative;
+    top: -25px;
+}
+
+#alarmclock-data-container table {
+    background-color: rgba(0, 0, 0, 0.953);
+    color: white;
+    border-radius: 8px;
+    ;
+}
+
+#alarmclock-data-container table tr {
+    width: 685px;
+    height: 52px;
+    text-align: center;
+    display: inline-table;
+}
+
+#alarmclock-data-container table tr:nth-child(1) {
+    border: none;
+}
+
+#alarmclock-data-container table tr th {
+    font-size: 1.38rem;
+    font-family: cursive;
+    width: 168px;
+    color: #d36a9f;
+    ;
+
+}
+
+#alarmclock-data-container table tr td {
+    width: 168px;
+    max-width: 168px;
+    text-overflow: clip;
+    overflow: hidden;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+
+#alarmclock-data-container .alarm-time,
+#alarmclock-data-container .alarm-name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.99rem;
+}
+
+#alarmclock-data-container table .alarm-name {
+    font-size: 0.9rem;
+}
+
+
+/*____alarm-status icons_____*/
+.pending {
+    font-size: 1.5rem;
+    color: rgb(98, 195, 234);
+}
+
+.ringing {
+    color: rgba(255, 0, 25, 0.914);
+}
+
+.stopped{
+    color:rgba(0, 128, 0, 0.686);
+    font-size:1.15rem;
+}
+
+
+.stop-alarm {
+
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.stop-alarm i {
+    display: none;
+
+}
+
+.stop-alarm i:hover {
+    font-size: 1.45rem;
+}
+
+.delete-alarm {
+    cursor: pointer;
+    color: rgba(233, 31, 12, 0.841);
+}
+
+.delete-alarm:hover {
+    color: red;
+    font-size: 1.4rem;
+}
+
+
+/*____________________help container_____________________*/
+
+#help{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:23px;
+    top: 180px;
+    width:80vw;
+   
+}
+
+#help div{
+    width:280px;
+    margin-bottom :12px;
+}
+
+#help div i{
+    font-size:1.35rem;
+    width:35px;
+}
+
+#help div span{
+    font-family: cursive;
+    margin-left:20px;
+    width:210px;
+    display: inline-block;
+}
+
+
+
+/*__________________________________________________media queries______________________________________________________*/
+
+@media only screen and (max-width:1192px) {
+
+
+    #setalarm-container {
+        width: 66%;
+    }
+
+    #setalarm-time-flex div {
+        width: 21.7%;
+        margin-right: 15px;
+    }
+
+
+    #setalarm-time-flex div label {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+
+    #nav-container {
+
+        width: 55%;
+    }
+
+    #nav-container button {
+      
+        height: 125px;
+        width: 100.2%;
+    }
+
+
+    #nav-container button span{
+        position: relative;
+        left:130px;
+        font-size:1.43rem;
+    }
+        
+    #nav-container button svg {
+
+        height:2.6rem;
+        width:2.6rem;
+        position: relative;
+        left:75px;
+        color: white;
+    }
+
+    #nav-container button i {
+        font-size: 2.6rem;
+        position: relative;
+        left:75px;
+    }
+
+    #setalarm-container {
+
+        width: 80%;
+    }
+
+    #setalarm-time-flex div {
+        width: 21%;
+        margin-right: 17px;
+    }
+
+    #setalarm-time-flex div label {
+
+        font-size: 1.1rem;
+    }
+ 
+    #alarmclock-data-container table tr {
+        width: 655px;
+    }
+
+    #alarmclock-data-container table tr th {
+        font-size: 1.35rem;
+        width: 162px;
+
+    }
+
+    #alarmclock-data-container table tr td {
+        width: 162px;
+        max-width: 162px;
+        font-size: 1.15rem;
+    }
+
+
+    #alarmclock-data-container table .alarm-name {
+        font-size: 0.88rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width:720px) {
+
+    main{
+        width:95vw;
+    }
+    
+    #nav-container {
+        width: 90%;
+    }
+
+    #alarm-clock {
+        width:100%;
+    }
+
+    #clock-container {
+        width: 90%;
+    }
+
+    #date {
+        margin-top:40px;
+        font-size: 1.53rem;
+    }
+
+    #time {
+        font-size:3.15rem;
+        margin-top:15px;
+        margin-bottom: 25px;;
+    }
+
+    #setalarm-container {
+
+        width: 98%;
+        max-width: 610px;
+    }
+
+    .heading{
+        width:70%;
+        font-size:1.34rem;
+    }
+
+    .heading::first-letter{
+        font-size:2.12rem;
+    }
+
+
+    #setalarm-time-flex div {
+        width: 20.5%;
+        margin-right: 15px;
+    }
+
+
+    #setalarm-time-flex div label {
+        position: relative;
+        font-size: 0.9rem;
+        left:-12px;
+    }
+
+    #setalarm-name-flex #alarm-name{
+        width:80%;
+    }
+
+    #alarmclock-data-container{
+        margin-top: -40px;;
+        width:96.5vw;
+        margin-left:-9px;
+    }
+
+    #alarmclock-data-container h3{
+        position: relative;
+        top:-35px;
+        font-size:2.4rem;
+    }
+
+     #alarmclock-data-container table{
+        width:97%;
+    } 
+
+    #alarmclock-data-container table tr {
+       width:100%;
+       max-width: 650px;
+    }
+
+    
+    #alarmclock-data-container table tr td {
+        width: 25%;
+        max-width: 25%;
+    }
+
+
+    #alarmclock-data-container table .alarm-name {
+        font-size: 0.82rem;
+    }
+
+    #alarmclock-data-container table .alarm-time{
+        font-size:0.89rem;
+    }
+    
+}
+
+@media only screen and (max-width:480px){
+
+    #nav-header svg {
+        margin-left:45px;
+        width:3.8rem;
+        height:3.8rem;
+    }
+
+    #nav-header h3 {
+        font-size: 1.6rem;
+        position: relative;
+        left:-18px;
+        
+    }
+
+    #options-menu {
+        font-size: 1.5rem;
+
+    }
+
+    #options-menu i {
+        font-size: 1.8rem;
+        margin-top: 33px;
+        margin-left: 9px;
+    }
+
+    #nav-container {
+        width: 100%;
+    }
+
+    #nav-container button {
+        height: 125px;
+        width: 100%;
+    }
+
+    #nav-container button span{
+        left:65px;
+        font-size:1.32rem;
+    }
+        
+    #nav-container button svg {
+
+        height:2.3rem;
+        width:2.3rem;
+        left:45px;
+    }
+
+    #nav-container button i {
+        font-size: 2.6rem;
+        left:45px;
+    }
+
+    #clock-container {
+        width: 99%;
+        min-height: 185px;
+    }
+
+    #date {
+        margin-top:40px;
+        font-size: 1.23rem;
+    }
+
+    #time {
+        font-size:2.18rem;
+        margin-top:15px;
+        margin-bottom: 25px;;
+    }
+    
+    #setalarm-container {
+        width: 99%;
+        height:auto;
+    }
+
+    .heading{
+        top:25px;
+        left:22px;
+        font-size:1.22rem;
+    }
+
+    .heading::first-letter{
+        font-size:1.8rem;
+    }
+
+    #setalarm-time-flex{
+        flex-direction: column;
+    }
+    
+    #setalarm-time-flex div {
+        width: 70%;
+        margin-right: 15px;
+        margin-bottom:8px;
+    }
+
+    #setalarm-time-flex div label{
+        left:-18px;
+        top:10px;
+    }
+
+    #alarmclock-data-container{
+        margin-top:-65px;
+        width:96vw;
+    }
+
+    #alarmclock-data-container h3{
+        font-size:2.1rem;
+        top:-15px;
+    }
+
+    #alarmclock-data-container table{
+        width:99%;
+    }
+    
+    #alarmclock-data-container table tr {
+       width:100%;
+        max-width: 650px;
+     }
+
+     #alarmclock-data-container table tr th{
+        font-size:0.88rem;
+        width:80px;
+        position: relative;
+        left:7px;
+     }
+
+     #alarmclock-data-container table tr th:nth-child(3){
+        left:22px;
+     }
+     
+     #alarmclock-data-container table tr th:nth-child(4){
+        left:10px;
+     }
+
+    #alarmclock-data-container table tr td {
+    
+        width: 16%;
+        max-width: 25%;
+    }
+
+
+    #alarmclock-data-container table .alarm-name {
+        width:26%;
+        font-size: 0.72rem;
+    }
+
+    #alarmclock-data-container table .alarm-time{
+        font-size:0.74rem;
+        width:39%;
+    }
+
+}

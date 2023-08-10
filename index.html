@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/1505e6fedb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+
+        <div id="options-menu">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+        <header id="nav-header">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-alarm" viewBox="0 0 20 20">
+                <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" />
+                <path
+                    d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" />
+            </svg>
+            <h3>Alarm Clock</h3>
+
+        </header>
+
+
+
+        <div id="nav-container">
+
+            <button>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-alarm-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z" />
+                </svg>
+                <span>
+                    Alarm Clock
+
+                </span>
+
+            </button>
+
+            <button>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-stopwatch-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M6.5 0a.5.5 0 0 0 0 1H7v1.07A7.001 7.001 0 0 0 8 16a7 7 0 0 0 5.29-11.584.531.531 0 0 0 .013-.012l.354-.354.353.354a.5.5 0 1 0 .707-.707l-1.414-1.415a.5.5 0 1 0-.707.707l.354.354-.354.354a.717.717 0 0 0-.012.012A6.973 6.973 0 0 0 9 2.071V1h.5a.5.5 0 0 0 0-1h-3zm2 5.6V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 1 1 1 0z" />
+                </svg>
+                <span>
+                    Features
+
+                </span>
+
+            </button>
+
+            <button>
+
+                <i class="fa-solid fa-stopwatch-20"></i>
+                <span>
+                    Features
+
+                </span>
+
+            </button>
+
+
+        </div>
+
+    </nav>
+
+
+    <main>
+
+
+        <section id="alarm-clock">
+
+            <div id="clock-container">
+
+                <div id="date"></div>
+
+                <div id="time"></div>
+
+            </div>
+
+            <div id="setalarm-container">
+
+                <div class="heading">
+                    Set Alarm Time
+
+                </div>
+
+                <div id="setalarm-time-flex">
+
+                    <div>
+
+                        <label for="#hour"> <span>Hours</span></label>
+
+                        <select id="hour" class="form-select" size="1" aria-label="size 2 select example">
+                            <option value="00" selected>00</option>
+                        </select>
+
+                    </div>
+
+                    <div>
+
+                        <label for="#minute"> <span>Minutes</span></label>
+                        <select id="minute" class="form-select form-select-sm" size="1"
+                            aria-label="size 2 select example">
+                            <option value="00" selected>00</option>
+                        </select>
+
+                    </div>
+
+                    <div>
+
+                        <label for="#second"> <span>Seconds</span></label>
+                        <select id="second" class="form-select form-select-sm" size="1"
+                            aria-label="size 2 select example">
+                            <option value="00" selected>00</option>
+                        </select>
+
+                    </div>
+
+                    <div>
+
+                        <label for="#am/pm"><span>AM/PM</span> </label>
+                        <select id="am/pm" class="form-select" size="1" aria-label="size 2 select example">
+                            <option value="am/pm" selected>am/pm</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div id="setalarm-name-flex">
+
+                    <div class="heading">
+                        Set Alarm Name
+                    </div>
+                    <input maxlength="20" id="alarm-name" type="text" required>
+
+                </div>
+
+                <button id="setalarm-button"> SET ALARM</button>
+
+            </div>
+
+
+
+            <div id="alarmclock-data-container">
+
+                <h3>Alarm Clock Data</h3>
+
+                <table>
+
+                    <tr>
+                        <th>Name</th>
+                        <th>Alarm</th>
+                        <th>Status</th>
+                        <th>Delete</th>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+            <div id="help">
+
+                <div>
+                    <i class="fa-solid fa-toggle-on pending"> </i>
+                    <span> -> &emsp;Pending</span>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-bell fa-shake ringing"></i>
+                    <span> -> &emsp; Ringing</span>
+                </div>
+
+                <div>
+                    <i style="color:red" class="fa-regular fa-circle-stop stop"></i>
+                    <span> -> &emsp; Stop Alarm Button</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-check stopped"></i>
+                    <span> -> &emsp; Stopped</span>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-trash delete-alarm"></i>
+                    <span>-> &emsp; Delete Aalarm Button</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
