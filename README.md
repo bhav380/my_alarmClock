@@ -36,7 +36,12 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 
 ![Alarm Clock Home Page](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/home.jpg)  
 
-*Home Page*  
+*Home Page*
+<br/>
+<br/>
+<br/>
+<br/>
+
   
     
       
