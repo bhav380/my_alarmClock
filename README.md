@@ -37,7 +37,7 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 ![Alarm Clock Home Page](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/home.jpg)  
 <br>
 
-<p style="text-align:center;font-size:1.2rem;">Home Page</p>
+<h3 align="center">Home Page</h3>
 <br/>
 <br/>
 <br/>
@@ -54,7 +54,7 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 ![Nav Bar](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/nav.jpg) 
 <br> 
 
-<p style="text-align:center;font-size:1.2rem;">Nav Bar Menu </p>
+<h3 align="center">Nav Bar Menu </h3>
 
 <br/>
 <br/>
@@ -70,7 +70,7 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 
 ![Set Alarm](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/setAlarm.jpg) 
 <br> 
-<p style="text-align:center;font-size:1.2rem;">Set an alarm by specifying the time and name. </p>
+<h3 align="center">Set an alarm by specifying the time and name. </h3>
 
 
 <br/>
@@ -99,7 +99,7 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 <br/>
 <br/>
 
-<p style="text-align:center;font-size:1.2rem;">View the list of alarms with their respective details.  </p>
+<h3 align="center">View the list of alarms with their respective details.  </h3>
 
 
 
@@ -114,7 +114,7 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 
 ![Help](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/help.jpg) 
 <br>
-<p style="text-align:center;font-size:1.2rem;">Alarm Status icons   </p> 
+<h3 align="center">Alarm Status icons   </h3> 
 <br/>
 <br/>
 <br/>
