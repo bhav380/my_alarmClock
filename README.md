@@ -35,8 +35,9 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 ## Screenshots
 
 ![Alarm Clock Home Page](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/home.jpg)  
+<br>
 
-*Home Page*
+<p style="text-align:center;font-size:1.2rem;">Home Page</p>
 <br/>
 <br/>
 <br/>
@@ -50,9 +51,16 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 
 
 
-![Nav Bar](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/nav.jpg)  
+![Nav Bar](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/nav.jpg) 
+<br> 
 
-*Nav Bar Menu*  
+<p style="text-align:center;font-size:1.2rem;">Nav Bar Menu </p>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
   
     
       
@@ -61,8 +69,59 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 
 
 ![Set Alarm](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/setAlarm.jpg) 
+<br> 
+<p style="text-align:center;font-size:1.2rem;">Set an alarm by specifying the time and name. </p>
 
-*Set an alarm by specifying the time and name.*    
+
+<br/>
+<br/>
+<br/>   
+<br/>
+<br/>
+
+  
+    
+      
+        
+          
+
+
+
+
+![Alarm List and Ringing Alarm](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/alarmData.jpg)
+
+
+<br/>
+<br/>
+
+![Stopped Alarm](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/data2.jpg) 
+
+<br/>
+<br/>
+
+<p style="text-align:center;font-size:1.2rem;">View the list of alarms with their respective details.  </p>
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+![Help](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/help.jpg) 
+<br>
+<p style="text-align:center;font-size:1.2rem;">Alarm Status icons   </p> 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
   
     
       
@@ -72,48 +131,11 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 
 
 
-![Alarm List and Ringing Alarm](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/alarmData.jpg)  
+<br>
+<br>
+<br>
 
-*View the list of alarms with their respective details.*
-
- 
-
-  
-
-   
-
-    
-
-     
-
-
-![Stopped Alarm](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/setAlarm.jpg)  
-
-
-
-
-
-
-
-
-
-
-
-![Help](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/help.jpg)  
-
-  
-    
-      
-        
-          
-            
-            **
-
-
-
----
-
-## Hosted Link  
+## Host Link  
 
 https://bhav380.github.io/my_alarmClock/
 
