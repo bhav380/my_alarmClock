@@ -4,6 +4,7 @@ body {
 }
 
 
+
 /* ___________navBar___________________*/
 
 #nav-header {
@@ -561,7 +562,6 @@ main {
     #nav-container {
         width: 90%;
     }
-
     #alarm-clock {
         width:100%;
     }
