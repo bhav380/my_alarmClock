@@ -34,25 +34,36 @@ This is a web application that simulates an alarm clock. Users can set alarms, v
 
 ## Screenshots
 
-![Set Alarm](https://github.com/yourusername/yourrepository/blob/main/screenshots/set_alarm.png)
+![Alarm Clock Home Page](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/home.jpg)
+
+
+
+![Nav Bar](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/nav.jpg)
+
+
+![Set Alarm](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/setAlarm.jpg)
 *Set an alarm by specifying the time and name.*
 
-![Alarm List](https://github.com/yourusername/yourrepository/blob/main/screenshots/alarm_list.png)
+![Alarm List and Ringing Alarm](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/alarmData.jpg)
 *View the list of alarms with their respective details.*
 
-![Ringing Alarm](https://github.com/yourusername/yourrepository/blob/main/screenshots/ringing_alarm.png)
-*Stop alarms that are currently ringing.*
+
+![Stopped Alarm](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/setAlarm.jpg)
 
 
+
+![Help](https://github.com/bhav380/my_alarmClock/blob/main/screenshotsReadme/help.jpg)
+**
+
+
+
+---
 
 ## Hosted Link  
 
 https://bhav380.github.io/my_alarmClock/
 
 ---
-
-## --> _Created_  _By_ _BHAWESH_ _RATHOUR_
-
 
 
 
